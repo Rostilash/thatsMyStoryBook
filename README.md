@@ -39,7 +39,7 @@ Demonstrates all input field features together, including password visibility an
 little video example
 
 <p align="center">
-  <img src="./docs/gifs/input.gif" width="420" />
+  <img src="./docs/gifs/input.gif" width="620" />
 </p>
 
 ### TOAST VARIANTS ------------------------
@@ -71,7 +71,7 @@ A red error toast, used to show failure or critical messages.
 little video example
 
 <p align="center">
-  <img src="./docs/gifs/toast.gif" width="420" />
+  <img src="./docs/gifs/toast.gif" width="620" />
 </p>
 
 ### SideBar VARIANTS ------------------------
@@ -107,5 +107,5 @@ Sidebar with a two-level nested accordion. Useful for hierarchical navigation.
 little video example
 
 <p align="center">
-  <img src="./docs/gifs/sideBar.gif" width="420" />
+  <img src="./docs/gifs/sideBar.gif" width="620" />
 </p>
