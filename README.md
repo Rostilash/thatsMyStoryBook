@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+### INPUT VARIANTS ------------------------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### (Default)
 
-## Available Scripts
+The standard input field with no special features.
 
-In the project directory, you can run:
+<p align="center">
+  <img src="./docs/screenshots/default_input.png" width="420" />
+</p>
 
-### `npm start`
+### (With visible password and icon)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Input field with a password toggle feature. Users can show or hide the password by clicking the icon.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center">
+  <img src="./docs/screenshots/not_visible_input.png" width="420" />
+</p>
 
-### `npm test`
+<p align="center">
+  <img src="./docs/screenshots/visible_input.png" width="420" />
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### (Clearable button)
 
-### `npm run build`
+Input field with a clear button, allowing users to quickly remove the text inside the input.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img src="./docs/screenshots/default_input.png" width="420" />
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+  <img src="./docs/screenshots/clearable_input.png" width="420" />
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### (All variants)
 
-### `npm run eject`
+Demonstrates all input field features together, including password visibility and clearable button.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="center">
+  <img src="./docs/screenshots/both_start.png" width="420" />
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+  <img src="./docs/screenshots/both_states_input.png" width="420" />
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### TOAST VARIANTS ------------------------
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### (Default)
 
-## Learn More
+A neutral info toast, used for general notifications.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="center">
+  <img src="./docs/screenshots/info.png" width="420" />
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### (Success)
 
-### Code Splitting
+A green success toast, indicating a positive action or confirmation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="center">
+  <img src="./docs/screenshots/success.png" width="420" />
+</p>
 
-### Analyzing the Bundle Size
+### (Error)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A red error toast, used to show failure or critical messages.
 
-### Making a Progressive Web App
+<p align="center">
+  <img src="./docs/screenshots/error.png" width="420" />
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### SideBar VARIANTS ------------------------
 
-### Advanced Configuration
+### (Default)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The standard sidebar with a list of items.
 
-### Deployment
+<p align="center">
+  <img src="./docs/screenshots/sideBarPrev.png" width="420" />
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="center">
+  <img src="./docs/screenshots/side-bar-default.png" width="420" />
+</p>
 
-### `npm run build` fails to minify
+### Simple accordion( 1 lvl nested)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sidebar with a single-level nested accordion. Items can expand/collapse to show sub-items.
+
+<p align="center">
+  <img src="./docs/screenshots/side-bar-1lvl.png" width="420" />
+</p>
+
+### Nested accordion( 2 lvl nested)
+
+Sidebar with a two-level nested accordion. Useful for hierarchical navigation.
+
+<p align="center">
+  <img src="./docs/screenshots/side-bar-2lvl.png" width="420" />
+</p>
