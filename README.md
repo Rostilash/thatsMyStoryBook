@@ -36,6 +36,12 @@ Demonstrates all input field features together, including password visibility an
   <img src="./docs/screenshots/both_states_input.png" width="420" />
 </p>
 
+little video example
+
+<p align="center">
+  <img src="./docs/gifs/input.gif" width="420" />
+</p>
+
 ### TOAST VARIANTS ------------------------
 
 ### Default
@@ -60,6 +66,12 @@ A red error toast, used to show failure or critical messages.
 
 <p align="center">
   <img src="./docs/screenshots/error.png" width="420" />
+</p>
+
+little video example
+
+<p align="center">
+  <img src="./docs/gifs/toast.gif" width="420" />
 </p>
 
 ### SideBar VARIANTS ------------------------
@@ -90,4 +102,10 @@ Sidebar with a two-level nested accordion. Useful for hierarchical navigation.
 
 <p align="center">
   <img src="./docs/screenshots/side-bar-2lvl.png" width="420" />
+</p>
+
+little video example
+
+<p align="center">
+  <img src="./docs/gifs/sideBar.gif" width="420" />
 </p>
